@@ -1,9 +1,9 @@
 #!/bin/bash
 #writing script bettween two peoples
-p1=mok
-p2=chand
-echo "hello welcome $p1 "
-echo "yeah hai $p2 "
-echo "hello $p2"
-echo "hello $p1"
-echo "this is starting of shell language $p2"
+p1=$1
+p2=$2
+echo "hello welcome $1"
+echo "yeah hai $2"
+echo "hello $2"
+echo "hhello $1"
+echo "this is starting of shell language $2"
